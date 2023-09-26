@@ -60,14 +60,12 @@ h1 {
     padding: 10px;
 }
 
-ul li::marker {
-    content: "▼ ";
+ul {
+    list-style: none;
 }
 
-li {
-    margin-left: 80px;
-    font-size: 25px;
-    font-weight: bold;
+h2 {
+    margin-left: 100px;
 }
 
 .positive {
@@ -76,9 +74,26 @@ li {
     height: 20px;
     border: 2px solid green;
     border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    color: green;
+    margin-left: 75px;
+    margin-right: 5px;
 }
 
-.check {
-    vertical-align: middle;
-    text-align: center;
+li {
+    font-size: 20px;
+}
+
+.pin {
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.blue{
+    font-weight: bold;
+    background-color: rgb(72, 197, 247);
 }
