@@ -31,23 +31,54 @@ h1 {
     width: 50%;
     background-color: white;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
-.button{
+.button {
     border-radius: 10px;
     font-weight: bold;
     padding: 10px;
 }
 
-.one{
+.one {
     background-color: skyblue;
     color: white;
     border: none;
     margin-left: 100px;
 }
 
-.two{
+.two {
     background-color: white;
     border-color: gainsboro;
     color: gainsboro;
+}
+
+.big-box {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+}
+
+ul li::marker {
+    content: "▼ ";
+}
+
+li {
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.positive {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.check {
+    vertical-align: middle;
+    text-align: center;
 }
