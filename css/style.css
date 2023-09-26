@@ -68,22 +68,32 @@ h2 {
     margin-left: 100px;
 }
 
-.positive {
+.mark {
     background-color: white;
     width: 20px;
     height: 20px;
-    border: 2px solid green;
     border-radius: 50%;
     text-align: center;
     font-size: 15px;
     display: inline-block;
-    color: green;
     margin-left: 75px;
     margin-right: 5px;
 }
 
+.positive{
+    border: 2px solid green;
+    color: green;
+}
+
+.negative{
+    border: 2px solid red;
+    color: red;
+}
+
 li {
     font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .pin {
@@ -91,9 +101,29 @@ li {
     color: white;
     font-size: 15px;
     padding: 5px;
+    font-weight: bold;
 }
 
 .blue{
-    font-weight: bold;
     background-color: rgb(72, 197, 247);
+}
+
+.purple{
+    background-color:blueviolet
+}
+
+.green{
+    background-color: rgb(35, 148, 35)
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.yellowish{
+    background-color: yellowgreen;
 }
